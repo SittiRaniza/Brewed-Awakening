@@ -129,7 +129,7 @@ nav ul li a:hover{
     height: auto;
     background-color: var(--light-color);
     padding: 35px;
-    background-color: var(--light-color);
+    padding-bottom: 100px;
 }
 .menu-content {
     width: 100%;
@@ -147,57 +147,120 @@ nav ul li a:hover{
 }
 
 .hot-menu-images {
-    margin-top: 35px;
     display: flex;
-    gap: 3rem;
     justify-content: center;
-    flex-wrap: wrap;
+    gap: 7rem;
+    margin-top: 50px;
 }
 .hot-menu-images .menu-card {
-    background:transparent;
-    border: #4B2E2E;
-    border-radius: 15px;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    box-shadow: -6px 0 8px -4px rgba(0, 0, 0, 0.15), 
-             6px 0 8px -4px rgba(0, 0, 0, 0.15);
-
-
-    padding-bottom: 20px;
-    height: 35vh;
+    width: 350px;
+    height: 60vh;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
 }
-.hot-menu-images .menu-card .menu1 {
+.hot-menu-images .menu-card .menu-text {
+    background-color: var(--border-color);
+    position: absolute;
+    width: 100%;
+    height: 21vh;
+    padding: 15px;
+}
+.hot-menu-images .menu-card img {
+    width: 300px;
+}
+.hot-menu-images .menu-card .menu-text h4 {
+    color: var(--primary-color);
+    font-size: 1.5rem;
     margin-top: 5px;
+    font-family: var(--main-font);
+    text-align: left;
 }
-.hot-menu-images .menu-card .menu2 {
-    margin-top: -20px;
-}
-.hot-menu-images .menu-card .menu3 {
-    margin-top: -10px;
-}
-.menu-text {
-    border-radius: 0;
-    background: var(--border-color);
-    margin-top: -70px;
-    height: 15vh;
-    box-shadow: -6px 0 8px  rgba(0, 0, 0, 0.15), 
-             6px 0 8px  rgba(0, 0, 0, 0.15);
-
+.hot-menu-images .menu-card .menu-text p {
+    text-align: left;
 }
 
-
-.hot-menu-images img {
+.hot-menu-images .menu-card .menu-text button  {
+    width: 130px;
+    height: 5vh;
+    margin-right: -160px;
+    border-radius: 5px;
+    border-color: var(--primary-color);
+    border: none;
+    border-style: solid;
+    border-width: 1px;
+}  
+.cold-menu-image {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 100px;
+}
+.cold-menu-image .menu-card img {
     width: 300px;
-    height: auto;
-    border-radius: 25px;
-    margin: 20px;
 }
-.cold-menu-image img {
-    width: 300px;
-    height: auto;
-    border-radius: 25px;
-    margin: 20px;
+.cold-menu-image .menu-card {
+    width: 350px;
+    height: 60vh;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
 }
+.cold-menu-image .menu-card .menu-text {
+    background-color: var(--border-color);
+    position: absolute;
+    width: 100%;
+    height: 21vh;
+    padding: 15px;
+}
+.cold-menu-image .menu-card .menu-text h4 {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin-top: 5px;
+    font-family: var(--main-font);
+    text-align: left;
+}
+.cold-menu-image .menu-card .menu-text p {
+    text-align: left;
+}
+.cold-menu-image .menu-card .menu-text button  {
+    width: 130px;
+    height: 5vh;
+    margin-right: -120px;
+    border-radius: 5px;
+    border-color: var(--primary-color);
+    border: none;
+    border-style: solid;
+    border-width: 1px;
+}  
+.menu-content button:hover {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    transform: scale(1.1);
+}
+
+/*********************** CONTACT HERO ********************/
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: var(--primary-color);
+
+}
+
 
 
 
@@ -258,3 +321,5 @@ img {
     height: auto;
     border-radius: 25px;
 }
+
+
