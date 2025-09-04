@@ -71,8 +71,8 @@ nav ul li a:hover{
 }
 .coffee-beans {
     position: absolute;
-    width: 450px; /* adjust as needed */
-    opacity: 1; /* optional: to fade it into background */
+    width: 450px; 
+    opacity: 1; 
     z-index: 1;
     pointer-events: none;
 }
@@ -96,7 +96,7 @@ nav ul li a:hover{
 }
 #hero-image {
     position: relative;
-    width: 400px; /* adjust as needed */
+    width: 400px; 
     z-index: 2;
 }
 .hero-text{
@@ -303,9 +303,9 @@ nav ul li a:hover{
 }
 .send-btn {
   position: absolute;
-  right: 1px;          /* inside the textarea area */
+  right: 1px;         
   bottom: 50%;
-  transform: translateY(50%); /* perfectly vertical center */
+  transform: translateY(50%); 
   background: none;
   border: none;
   cursor: pointer;
@@ -324,32 +324,6 @@ nav ul li a:hover{
 .send-btn:hover {
     color: var(--primary-color);
 }
-/*********************** FOOTER HERO ********************/
-.footer-wave svg {
-  display: block;
-}
-.footer-wave {
-  background-color: var(--light-color); /* same as section above */
-}
-footer {
-    width: 100%;
-    height: 15vh;
-    background-color: var(--secondary-color);
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-footer p {
-    margin-top: 15px;
-}
-.social-icons {
-    margin-top: -30px;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
-
-
 /*********************** ABOUT HERO ********************/
 .about-section {
     width: 100%;
@@ -390,5 +364,32 @@ img {
     height: auto;
     border-radius: 25px;
 }
+
+/*********************** FOOTER HERO ********************/
+.footer-wave svg {
+  display: block;
+}
+.footer-wave {
+  background-color: var(--light-color); 
+}
+footer {
+    width: 100%;
+    height: 15vh;
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer p {
+    margin-top: 15px;
+}
+.social-icons {
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
 
 
